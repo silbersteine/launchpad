@@ -533,7 +533,7 @@ export interface ApiBlogPageBlogPage extends Struct.SingleTypeSchema {
     singularName: 'blog-page';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   pluginOptions: {
     i18n: {
@@ -604,7 +604,7 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
     singularName: 'category';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   pluginOptions: {
     i18n: {
@@ -644,7 +644,7 @@ export interface ApiFaqFaq extends Struct.CollectionTypeSchema {
     singularName: 'faq';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   pluginOptions: {
     i18n: {
@@ -917,7 +917,7 @@ export interface ApiProductPageProductPage extends Struct.SingleTypeSchema {
     singularName: 'product-page';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   pluginOptions: {
     i18n: {

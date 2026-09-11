@@ -22,6 +22,11 @@ const inter = Inter({
   weight: ['400', '500', '600', '700', '800', '900'],
 });
 
+// The Strapi client intentionally bypasses `'use cache'` when
+// ENVIRONMENT=development so content edits show up immediately, which makes
+// these routes blocking rather than prerenderable.
+export const instant = false;
+
 // Default Global SEO for pages without them
 export async function generateMetadata({
   params,

@@ -24,7 +24,7 @@
     "@strapi/plugin-seo": "^2.0.9",
     "@strapi/plugin-users-permissions": "5.52.0",
     "@strapi/strapi": "5.52.0",
-    "better-sqlite3": "11.7.0",
+    "better-sqlite3": "12.2.0",
     "pluralize": "^8.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -39,7 +39,7 @@
     "uuid": "LAUNCHPAD-LOCAL-45ee9b07-3e13-4cbc-b63a-7f34ed12ec2d"
   },
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
+    "node": ">=20.0.0 <=26.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

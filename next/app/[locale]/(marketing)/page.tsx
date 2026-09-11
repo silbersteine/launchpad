@@ -6,6 +6,8 @@ import { generateMetadataObject } from '@/lib/shared/metadata';
 import { fetchCollectionType } from '@/lib/strapi';
 import type { LocaleParamsProps } from '@/types/types';
 
+export const instant = false;
+
 export async function generateMetadata({
   params,
 }: LocaleParamsProps): Promise<Metadata> {
